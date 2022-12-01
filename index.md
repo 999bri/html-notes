@@ -75,4 +75,29 @@ i.e.:
   
 `</ul>`
 
+## Ordered Lists
+Ordered lists (`<ol>`) are like unordered lists, except each list item is numbered. They are useful when you need to list different steps in a process or rank items for first to last. Use `<ol>` then `<li>` toadd individual items. 
+
+Note: Lists can contain videos, images, songs, hyperlinks, or a combination of any - even lists of lists.
+
+## Images
+The `<img>` tag allows you to add an image to a web page; this tag is a self-closing tag, but ends with a `/>`. Self-closing tags may include or omit the final slash, but both will render properly. 
+
+The tag has a required attribute called `src`. This attribute must be set to the image's source, or the location of the image; the value of `src` must be the uniform resoure locator (URL) - which is the web address or local address where a file is stored - of the image.
+
+Note: A local address refers to the path to an image, file, or resource located on your own computer. This works with a properly arranged directory or folder structure.
+
+i.e.: `<img src="___" />`
+
+## Image Alts
+In order to make a site more inclusive, assistive technologies need to be considered. The `alt` attribute, which means alternative text, brings meaning to the images. It can be added to the image tag just like the `src` attribute. The value of `alt` should be a description of the image.
+
+This attribute also serves the following purposes:
+- If an image fails to load, a user can mouse over the area originally intended for the image and read a brief description of the image. 
+- Visually impaired users often browse the web with the aid of screen reading software. When you include the `alt` attribute, the screen reading software can read the image's description out loud to the visually impaired user.
+- The `alt` attribute also plays a role in Search Engine Optimization (SEO) because search engines cannot "see" the images on the websites. Havin descriptive `alt` attributes can improve the ranking of your site. 
+
+Note: If the image on the web page is not one that conveys any meaningful information to a user (visually impaired or otherwise), the `alt` attribute should be left empty.
+
+i.e.: `<img src="#" alt="A set of tall mountains" />`
 
