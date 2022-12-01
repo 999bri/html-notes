@@ -8,7 +8,7 @@ HTML stands for HyperText Markup Language:
 ## The Body
 `<body>` `</body>`
 
-Many different types of content like text, images, and buttons can be added into the body
+Many different types of content like text, images, and buttons can be added into the body.
 
 ## HTML Structure
 When an element is contained inside another element, it is considered the child of that element; nested; they are either separated by an indentation or two spaces for better readability 
