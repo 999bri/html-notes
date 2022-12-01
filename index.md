@@ -1,15 +1,18 @@
-# Intro to HTML
-## Displaying Text
-If you want to display text, you could use a paragraph or span:
-- paragraphs (`<p>`) contain a block of plain text
-- `<span>` contains short pieces of text or other HTML; used to separate small pieces of content that are on the same line as other content; best to use when targeting a specific piece of content that is *inline* or on the same line as other text 
+# HTML
+## Intro to HTML
+HTML stands for HyperText Markup Language:
+- a markup language is a computer language that defines the structure and presentation of raw text
+- in HTML, the computer can interpret raw text that is wrapped in HTML elements
+- HyperText is text displayed on a computer or device that provides access to other text through links, also known as hyperlinks
 
-If you want to divide content into blocks, it's better to use `<div>`. 
+## The Body
+`<body>` `</body>`
 
-i.e.:
+Many different types of content like text, images, and buttons can be added into the body
 
-`<div>`
+## HTML Structure
+When an element is contained inside another element, it is considered the child of that element; nested; they are either separated by an indentation or two spaces for better readability 
 
-  `<p>` `<span>`Skulls`</span>` are a bone protective layer for the brain.`</p>`
-  
-`</div>`
+Since there are multiple levels of nesting, the analogy can be extended to grandchildren, great-grandchildren, etc. This is known as hierarchy.
+
+## Headings
