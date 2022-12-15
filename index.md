@@ -107,3 +107,26 @@ The `<video>` element requires a `src` attribute with a link to the video source
 i.e.: `<video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>`
           Video not supported
       `</video>`
+
+https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet
+
+https://www.youtube.com/watch?v=uxmB8MlO3m8
+
+## Preparing for HTML
+Let your browser know you are using HTML by doing a document declaration; it MUST be your first line of code 
+*HTML code is ALWAYS saved in a file with .html extension
+i.e.: `<!DOCTYPE html>`
+
+## The HTML Tag
+To create HTML content and structure, opening and closing `<html>` tags must be added after declaring document type. Anything in between the opening and closing `<html>` tags will be interpreted as HTML code
+
+## The Head
+Give the browser some information about the page itself using the `<head>` element; this contains the metadata for a webpage> Metadata is information about the page that isn't displayed directly on the webpage 
+
+## Page Titles 
+opening and closing `<title>` tag is always inside the `<head>` element; the title displays itself on the tab above the URL bar
+
+## Linking to Other Web Pages 
+You can add links to a web page by adding an anchor element `<a>`and including the text of the link in between the opening and closing tags; this element depends on the `href` attribute, which stands for hyperlink reference and is used to link to a path or the address to where a file is located 
+
+i.e.: `a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>`
