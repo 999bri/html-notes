@@ -101,3 +101,9 @@ Note: If the image on the web page is not one that conveys any meaningful inform
 
 i.e.: `<img src="#" alt="A set of tall mountains" />`
 
+## Videos
+The `<video>` element requires a `src` attribute with a link to the video source and also requires an opening and a closing tag
+
+i.e.: `<video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
+      Video not supported
+    </video>`
