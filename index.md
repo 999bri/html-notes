@@ -106,5 +106,4 @@ The `<video>` element requires a `src` attribute with a link to the video source
 
 i.e.: `<video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>`
           Video not supported
-      
       `</video>`
