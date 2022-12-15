@@ -129,4 +129,34 @@ opening and closing `<title>` tag is always inside the `<head>` element; the tit
 ## Linking to Other Web Pages 
 You can add links to a web page by adding an anchor element `<a>`and including the text of the link in between the opening and closing tags; this element depends on the `href` attribute, which stands for hyperlink reference and is used to link to a path or the address to where a file is located 
 
-i.e.: `a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>`
+i.e.: `<a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>`
+
+## Opening Links in a New Window
+This could be done using a `target` attribute; this specifies how a link should open. The attribute requires a value of `_blank`. It can be added directly to the opening `<a>` tag just like the `href` attribute.
+
+## Linking to Relative Page
+Many sites link to internal web pages like Home, About, Contact. When making sites like this, web developers often store HTML files in the root directory, or a main folder where all the files of the project are stored.
+
+i.e.: project-folder/
+      |—— about.html
+      |—— contact.html
+      |—— index.html
+      
+This shows three different files in one folder. Since these are stored in the same files, you can link web pages together using a relative path. A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) vs an absolute path (a full URL which is stored in a different folder). The `./` in `./index.html` tells the browser to look for the file in the current folder.
+
+## Linking At Will
+
+
+## Linking to Same Page
+
+
+## Whitespace
+
+
+## Indentation
+
+
+## Comments
+
+
+## HTML Tags
