@@ -145,18 +145,24 @@ i.e.: project-folder/
 This shows three different files in one folder. Since these are stored in the same files, you can link web pages together using a relative path. A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) vs an absolute path (a full URL which is stored in a different folder). The `./` in `./index.html` tells the browser to look for the file in the current folder.
 
 ## Linking At Will
+HTML allows you to turn nearly any element into a link by wrapping that element with an anchor element. With this technique, it’s possible to turn images into links by simply wrapping the `<img>` element with an `<a>` element.
 
-
+i.e.: <a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a> 
+  
 ## Linking to Same Page
+Be able to click a link and have the page automatically scroll to a specific section. In order to link to a target on the same page, we must give the target an id, like this:
 
 
 ## Whitespace
+Programmers use two tools to visualize the relationship between elements: whitespace and indentation.
 
+Both tools take advantage of the fact that the position of elements in a browser is independent of the amount of whitespace or indentation in the index.html file.
 
 ## Indentation
-
+The World Wide Web Consortium, or W3C, is responsible for maintaining the style standards of HTML. At the time of writing, the W3C recommends 2 spaces of indentation when writing HTML code.
 
 ## Comments
-
+Comments begin with <!-- and end with -->. Any characters in between will be ignored by your browser. Comments can span single or multiple lines.
 
 ## HTML Tags
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
