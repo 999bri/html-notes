@@ -167,3 +167,50 @@ Comments begin with <!-- and end with -->. Any characters in between will be ign
 ## HTML Tags
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 https://html.com/
+https://developer.mozilla.org/en-US/
+
+## Mozilla Development Network [MDN]
+It's an open-source network of documentation and tools that has information and a wide variety of topics related to web development, including HTML, CSS, and JavaScript.
+
+MDN articles usually divide content into separate sections. The types of sections will vary depending on the topic, but you will find the following sections in HTML documentation:
+
+A definition and demo - At the top of an MDN article, you’ll see a written definition of the article’s subject. Below the definition, you will find a demo, an interactive example. Here the demo displays a variety of heading elements showing the correct syntax. These demos allow you to run the example code given to you and see the immediate result. You can also interact with the example code including making changes to it.
+Attributes - This section describes any attributes specific to the HTML element. In this case, there are none except for global attributes like class or id that are used on all HTML elements.
+Usage notes - The section titled “Usage notes” gives helpful tips, including best practices that will help your website follow certain standards.
+Examples - This section provides you with even more examples. 
+Accessibility concerns - The accessibility concerns section goes over any issues that might impact accessibility, or how easily people can use your website when implementing the code or web technology shown in the article.
+Specifications - The specifications section provides links to resources that discuss the article’s topic in more detail. This article’s section goes into the design of these HTML elements, what their purpose is, and how they should function.
+Browser compatibility - This section displays information about which web browsers can support, or properly display the HTML elements, discussed in the article. The information found here is similar to the information you would find on a website like caniuse.com although less detailed.
+Related topics - There are two sections of this article that will show you additional, related topics: the section “See also” and the sidebar under “Related Topics.” Both provide linked articles that discuss topics related to the subject of the current article.
+
+Except for the Related Topics sidebar, you can jump to the relevant section you want to look at by clicking on the link in the menu, “On this Page,” located at the top of the page.
+
+## Create a Table
+Before displaying data, we must first create the table that will contain the data by using the <table> element. The <table> element will contain all of the tabular data we plan on displaying.
+  
+## Table Rows
+The first step in entering data into the table is to add rows using the table row element: <tr>.
+
+## Table Data
+Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: <td>.
+`<td>` adds columns with data.
+
+## Table Headings
+To add titles to rows and columns, you can use the table heading element: <th>. The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
+The use of the scope attribute, which can take one of two values:
+
+row - this value makes it clear that the heading is for a row.
+col - this value makes it clear that the heading is for a column.
+
+## Table Borders
+In older versions of HTML, a border could be added to a table using the border attribute and setting it equal to an integer. This integer would represent the thickness of the border. It's only meant to illustrate older conventions you may come across, otherwise, it's not used. Rather, CSS is used to style and create borders. 
+  
+## Spanning Columns
+Data can span columns using the colspan attribute. The attribute accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.
+
+## Spanning Rows
+## Table Body
+## Table Head
+## Table Footer
+## Styling with CSS
+  
