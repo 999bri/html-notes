@@ -209,8 +209,17 @@ In older versions of HTML, a border could be added to a table using the border a
 Data can span columns using the colspan attribute. The attribute accepts an integer (greater than or equal to 1) to denote the number of columns it spans across.
 
 ## Spanning Rows
+Data can also span multiple rows using the rowspan attribute. The rowspan attribute is used for data that spans multiple rows (perhaps an event goes on for multiple hours on a certain day). It accepts an integer (greater than or equal to 1) to denote the number of rows it spans across.
+
 ## Table Body
 ## Table Head
 ## Table Footer
 ## Styling with CSS
-  
+## Introduction to Semantic HTML
+## Header and Nav
+## Main and Footer
+## Article and Section
+## The Aside Element
+## Figure and Figcaption
+## Audio and Attributes
+## Video and Embed 
