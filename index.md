@@ -186,17 +186,17 @@ Related topics - There are two sections of this article that will show you addit
 Except for the Related Topics sidebar, you can jump to the relevant section you want to look at by clicking on the link in the menu, “On this Page,” located at the top of the page.
 
 ## Create a Table
-Before displaying data, we must first create the table that will contain the data by using the <table> element. The <table> element will contain all of the tabular data we plan on displaying.
+Before displaying data, we must first create the table that will contain the data by using the `<table>` element. The `<table>` element will contain all of the tabular data we plan on displaying.
   
 ## Table Rows
-The first step in entering data into the table is to add rows using the table row element: <tr>.
+The first step in entering data into the table is to add rows using the table row element: `<tr>`.
 
 ## Table Data
-Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: <td>.
+Rows aren’t sufficient to add data to a table. Each cell element must also be defined. In HTML, you can add data using the table data element: `<td>`.
 `<td>` adds columns with data.
 
 ## Table Headings
-To add titles to rows and columns, you can use the table heading element: <th>. The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
+To add titles to rows and columns, you can use the table heading element: `<th>`. The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
 The use of the scope attribute, which can take one of two values:
 
 row - this value makes it clear that the heading is for a row.
