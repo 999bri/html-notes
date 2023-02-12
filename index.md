@@ -225,3 +225,15 @@ Data can also span multiple rows using the rowspan attribute. The rowspan attrib
 ## Audio and Attributes
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes
 ## Video and Embed 
+## How a Form Works
+## Text Input
+## Adding a Label
+## Password Input
+## Number Input
+## Range Input
+## Checkbox Input
+## Radio Button Input
+## Dropdown list
+## Datalist Input
+## Textarea element
+## Submit Form
