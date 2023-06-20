@@ -213,19 +213,107 @@ Data can span columns using the colspan attribute. The attribute accepts an inte
 Data can also span multiple rows using the rowspan attribute. The rowspan attribute is used for data that spans multiple rows (perhaps an event goes on for multiple hours on a certain day). It accepts an integer (greater than or equal to 1) to denote the number of rows it spans across.
 
 ## Table Body
+A table can grow to contain a lot of data and become very long; long tables ca n be sectioned off using the table body element:
+`<tbody>`
+
 ## Table Head
+Only the column headings go under the `<thead>` element; this still requires a row in order to contain the table headings. The `scope` attribute on `<th>` elements can be used to indicate whether a `<th>` element is being used as a `"row"` heading or a `"col"` heading. 
+
 ## Table Footer
+The bottom part of a long table can also be sectioned off using the `<tfoot>` element. They are often used to contain sums, differences, and other data results.
+
 ## Styling with CSS
+CSS [Cascading Style Sheets] is a language that web developers use to style the HTML content on a web page; it can be used to style tables as well.
+
 ## Introduction to Semantic HTML
+Non-semantic + semantic HTML is used when building web pages; the word semantic means "relating to meaning", so semantic elements provide information about the content between the opening and closing tags. Using this, HTML elements are selected based on meaning.
+
+Reasons for using Semantic HTML:
+- Accessibility: makes webpages accessible for mobile devices and people with disabilities. i.e.: screen readers and browsers are able to interpret code better
+- SEO [Search Engine Optimization]: process of increasing the number of people that visit your webpage. They are better able to identify the content of your website and weight the most important content appropriately.
+- Easy to understand: makes the website's source code easier to read for other web developers.
+
 ## Header and Nav
+A `<header>` is a container ususally for either navigational links or introductory content containing `<h1>` to `<h6>` headings.
+A `<nav>` is used to define a block of navigation links such as menus and tables of contents. It is important to note that `<nav>` can be used inside of the `<header>` element but can also be used on its own.
+
 ## Main and Footer
+The element `<main>` is used to encapsulate the dominant content within a webpage. This tag is separate from the `<footer>` and the `<nav>` of a web page since these elements don't contain the principal content. 
+
+The footer contains information such as:
+- contact information
+- copyright information
+- terms of use
+- site map
+- reference to top of page links
+
 ## Article and Section
+`<section>` defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. i.e.: content with the same theme such as articles about cricket can go under a single section. 
+
+The `<article>` element holds content that makes sense on its own. It can hold content such as articles, blogs, comments, magazines, etc. An `<article>` tag would help someone using a screen reader understand where the article content begin and ends.
+
+It is important to note taht a `<section>` element could also be placed in an `<article>` elelment depending on the context.
+
 ## The Aside Element
+The `<aside>` element is used to mark additional information that can enhance another element but isn't required in order to understand the main content. This element can be used alongside other elements such as `<article>` or `<section>`. 
+
+Some common uses of the `<aside>` element are for:
+- bibliographies
+- endnores
+- comments
+- pull quotes
+- editorial sidebars
+- additional information
+
 ## Figure and Figcaption
+`<figure>` is an element used to encapsulate media such as an image, illustration, diagram, code snippet, etc, which is referenced in the main flow of the document. In `<figure>` we used the `<img>` tag to insert an image onto the webpage. We used the `src` attribute within the `<img>` tag so that we can link the source of the image.
+
+It's possible to add a caption to the image by using `<figcaption>`.
+
+`<figcaption>` is an element used to desctibe the media in the `<figure>` tag. Usually, `<figcaption>` will go inside `<figure>`. This is different than using a `<p>` element to describe the content
+
 ## Audio and Attributes
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes
+The `<audio>` element is used to embed audio content into a document. Like `<video>`, `<audio>` uses `src` to link the audio source. `<source>`
+
+It's recommended that we state the `type` of audio as it helps the browser identify it more easily and determine if that type of audio file is supported by the browser.
+
+Attributes allow us to do many different things to our audio file. There are many attributes for `<audio>` but today we're going to be focusing on `controls` and `src`.
+
+- `controls`: automatically displays  the audio controls intro the browser such as play and mute
+- `src`: specifies the URL of the audio file
+
+`<audio autoplay controls>`
+
 ## Video and Embed 
+The `<video>` element makes it clear that a developer is attempting to display a video to the user.
+Some attributes that can alter a video playback include:
+- controls: When added in, a play/pause button will be added onto the video along with volume control and a fullscreen option.
+- autoplay: The attribute which results in a video automatically playing as soon as the page is loaded.
+- loop: This attribute results in the video continuously playing on repeat.
+
+i.e.: `<video src="coding.mp4" controls>Video not supported</video>`
+
+The `<embed>` tag can  embed any media content including videos, audio files, and gifs from an external source. This means that any websites that have an embed button have some form of media content that can be added to other websites.
+
+The `<embed>` tag is a self-closing tag, unlike the `<video>` element. Note that this is a deprecated tag and other alternatives, such as `<video>`, `<audio>`, and `<img>`, should be used in its place, but is being taught for legacy purposes.
+
+## Introduction to HTML Forms
+Forms are a part of everyday life. An HTML `<form>` element is responsible for collecting information to send somewhere else. The field that you're typing into is part of a form.
+
 ## How a Form Works
+The `<form>` element is a great tool for collecting information, but then we need to send that information somewhere else for processing. We need to supply the `<form>` element with both the location of where the form's information goes and what HTTP  request to make. 
+
+i.e.: `<form action="/example.html" method="POST">`
+
+Skeleton for a `<form>` that will send information to example.html as a POST request:
+- the `action` attribute determines where the information is sent
+the `method` attribute is assigned a HTTP verb that is included in the HTTP request
+
+Note: HTTP verbs like POST do not need to be capitalized for the request to work, but it's done so out of convention. 
+
+The `<form>` element can also contain child elements. 
+i.e.: it would be helpful to provide a header so that users know what this `<form>` is about. We could also add a paragraph to provide even more detail. 
+
 ## Text Input
 ## Adding a Label
 ## Password Input
@@ -237,3 +325,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes
 ## Datalist Input
 ## Textarea element
 ## Submit Form
+## RESOURCES
+https://bookshop.org/p/books/html-and-css-design-and-build-websites-jon-duckett/10289632?ean=9781118008188
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes
+https://www.codecademy.com/learn/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-html/modules/wdcp-22-semantic-html-44fa9550-9f1e-49de-b4d6-295acba84038/cheatsheet
+https://www.codecademy.com/article/http-requests
